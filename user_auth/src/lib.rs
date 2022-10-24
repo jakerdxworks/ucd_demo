@@ -1,5 +1,15 @@
 use scrypto::prelude::*;
 
+// What are we going to build?
+// 1. A way where we can control the component and set who is allowed to or how people can
+// interact with the protocol.
+// 2. A way to approve members where they can access permissioned method calls.
+
+// Things we will learn:
+// 1. How to create resources in Scrypto.
+// 2. How to use Badge system to set access control. 
+
+
 // This defines our blueprint design that defines the logic of our component. 
 blueprint! {
     /// This struct defines the type of vaults and data that our component will hold.
@@ -28,6 +38,22 @@ blueprint! {
             }
             .instantiate()
             .globalize()
+        }
+
+        pub fn request_user(&mut self, username: String) {
+
+        }
+
+        pub fn approve_user(&mut self, username: String) {
+
+        }
+
+        pub fn claim_user(&mut self, temporary_badge: Bucket) {
+
+        }
+
+        pub fn create_auction(&mut self, user_badge: Proof) {
+            
         }
     }
 }
