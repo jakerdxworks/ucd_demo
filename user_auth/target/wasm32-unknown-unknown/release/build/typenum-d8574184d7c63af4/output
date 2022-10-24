@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/jakemai/Documents/GitHub/user_auth/target/wasm32-unknown-unknown/release/build/typenum-d8574184d7c63af4/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/Users/jakemai/Documents/GitHub/user_auth/target/wasm32-unknown-unknown/release/build/typenum-d8574184d7c63af4/out/op.rs
